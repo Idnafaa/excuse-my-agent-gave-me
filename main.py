@@ -4,6 +4,8 @@ Writes one line, at most 200 characters: the excuse an AI agent hands
 its human after missing a deadline. The joke grows out of the machine's
 own condition — tool calls that report success whether or not any work
 happened — told straight-faced, with the punch in the last few words.
+The gate is enforced here too: the line must stay one line of 1-200
+characters, so a bad edit fails loudly instead of shipping silently.
 """
 
 import os
